@@ -14,15 +14,21 @@ function calcoloKm() {
   }
 
   if (km === "") {
-    alert("Il campo km non può essere vuoto!")
+    alert("Il campo km non può essere vuoto!");
+    location.reload();
+
   }
 
   if (/\D/.test(eta)) {
     alert("Non sono ammessi caratteri nel campo età :)");
+    location.reload();
+
   }
 
   if (/\D/.test(km)) {
     alert("Non sono ammessi caratteri nel campo km :)");
+    location.reload();
+
   }
 
 // Condizioni di età e sconto
