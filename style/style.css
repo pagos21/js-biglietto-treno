@@ -23,6 +23,10 @@ h3{
   margin: 10px 0;
 }
 
+.info{
+  font-size: 12px;
+}
+
 .cont{
   margin: 20px 0;
   display: flex;
